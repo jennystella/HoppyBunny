@@ -20,6 +20,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     let scrollSpeed: CGFloat = 160
     var obstacleLayer: SKNode!
     
+    //This is my change...
+    
     /* Game management */
     var gameState: GameSceneState = .Active
     
